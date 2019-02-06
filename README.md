@@ -1,6 +1,7 @@
-# app1:
-# Dockerfile - based on centos:7 httpd
-# httpd running on 1001 UID
+# app1: httpd+php
+
+# Dockerfile - based on centos:7
+# httpd running on non-root uid 1001
 # listen on 8080/tcp
 # +php
 # index.php run script.sh and print output
