@@ -1,4 +1,4 @@
-FROM registry.redhat.io/ubi8/ubi
+FROM ubi:8
 
 RUN yum -y install httpd php && yum clean all 
 
