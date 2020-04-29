@@ -1,4 +1,4 @@
-FROM ubi:8
+FROM centos:7
 
 RUN yum -y install httpd php && yum clean all 
 
